@@ -65,10 +65,13 @@ template<typename T>void LinkedList<T>::InsertAtEnd(T data)
   newNode->next = nullptr;
 
   TNode<T> * temp = head;
-  while(temp->next != nullptr)
+  if(temp != nullptr)
   {
-    temp = temp->next;
+    while(temp->next != nullptr)
+    {
+      temp = temp->next;
+    }
+    temp->next = newNode;
   }
-  temp->next = newNode;
 }
 #endif
