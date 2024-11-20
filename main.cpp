@@ -24,6 +24,13 @@ int main()
 
   std::cout << std::endl; 
 
+  LinkedList<double> * doubList = new LinkedList<double>();
+  // doubList->InsertInFront(33.36);
+  doubList->InsertAtEnd(123.3);
+  doubList->PrintList();
+
+  std::cout << std::endl; 
+
   strList->PrintList();
 
   return 0;
