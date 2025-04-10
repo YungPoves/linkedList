@@ -1,7 +1,8 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
-#include "TemplateNode.h"
+#include <iostream>
+#include "../node/TemplateNode.h"
 using std::cout;
 
 template<typename T> class LinkedList

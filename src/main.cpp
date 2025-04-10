@@ -1,6 +1,6 @@
 #include <iostream>
-#include "TemplateNode.h"
-#include "LinkedList.h"
+#include "node/TemplateNode.h"
+#include "linkedlist/LinkedList.h"
 using std::string;
 
 int main()
